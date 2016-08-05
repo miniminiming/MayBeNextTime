@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:shareInterpolator="true">
+
+    <!--整体运动，需要设置开始的线条值和结束的线条值，因此它们的格式必须相同-->
+    <!--也就是说valueFrom和valueTo值的格式-->
+    <!--<objectAnimator-->
+        <!--android:duration="500"-->
+        <!--android:propertyName="pathData"-->
+        <!--android:valueFrom="@string/heart_from"-->
+        <!--android:valueTo="@string/heart_to"-->
+        <!--android:valueType="pathType" />-->
+
+    <!--运动型线条，主要是propertyName和valueTypen属性需-->
+    <!--要改变，同时要更改的还有valueFrom和valueTo的值-->
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"
+        />
+
+    <!--卧槽，这意味着所有的属性都可以用属性动画搞了，原来如此，原来如此，原来属性动画是这个意思-->
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="strokeColor"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"
+        android:valueFrom="@color/colorAccent"
+        android:valueTo="@color/colorPrimaryDark"/>
+    <objectAnimator
+        android:duration="5000"
+        android:propertyName="strokeWidth"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"
+        android:valueFrom="2"
+        android:valueTo="20"/>
+</set>

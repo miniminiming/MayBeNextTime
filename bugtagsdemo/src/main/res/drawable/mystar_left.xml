@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="744.09448819dp"
+    android:height="1052.3622047dp"
+    android:viewportWidth="744.09448819"
+    android:viewportHeight="1052.3622047">
+
+    <path
+        android:name="starleft"
+        android:fillColor="#ffffff"
+        android:strokeColor="#00ff00"
+        android:strokeWidth="8"
+        android:pathData="@string/star_left" />
+</vector>

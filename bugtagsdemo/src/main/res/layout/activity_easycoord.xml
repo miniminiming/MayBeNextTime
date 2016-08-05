@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fitsSystemWindows="true"
+    >
+
+  <!--  AppBarLayout
+    AppBarLayout 是继承LinerLayout实现的一个ViewGroup容器组件,
+    默认的AppBarLayout是垂直方向的, 可以管理其中的控件在内容滚动时的行为。
+    AppBarLayout在这个例子中时蓝色的View，在其下放置了一个可以缩放的图片，其中包含一个Toolbar，
+    一个LinearLayout（包含标题和副标题），以及一个TabLayout。
+
+    我们可以通过设置layout_scrollFlags参数，来控制AppBarLayout中的控件行为。
+    在我们的这个例子中，大部分View的layout_scrollFlags都设置为scroll，如果没有设置的话，
+    当可滚动的View进行滚动时，这些没设置为scroll的View位置会保持不变；
+
+    layout_scrollFlags设置上snap值则可以避免进入动画中间状态（ mid-animation-states），
+    这意味着动画会一直持续到View完全显示或完全隐藏为止。
+
+    LinearLayout其中包含了一个标题和一个副标题，当用户向上移动时LinearLayout是一直显示的，直到移出屏幕（enterAlways）;
+
+    TabLayout会一直是可见的，因为我们没有在TabLayout上设置任何flag。
+
+    正如你所见，AppbarLayout的强大管理能力是通过在View上设置不同scroll flags实现的。-->
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/main.appbar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true"
+
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/main.collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/main.backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                android:src="@drawable/girl"
+                app:layout_collapseMode="parallax"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/main.toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:lineSpacingExtra="8dp"
+            android:text="黄河入源程序流百度上天头黄河黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头黄河入源程序流百度上天头"
+            android:padding="@dimen/activity_horizontal_margin"
+            />
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:src="@drawable/girl"
+        app:layout_anchor="@id/main.appbar"
+        app:layout_anchorGravity="bottom|right|end"
+        />
+</android.support.design.widget.CoordinatorLayout>

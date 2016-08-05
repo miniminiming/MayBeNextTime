@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="744.09448819dp"
+    android:height="1052.3622047dp"
+    android:viewportWidth="744.09448819"
+    android:viewportHeight="1052.3622047">
+
+    <path
+        android:name="mystar"
+        android:strokeColor="#ff0000"
+        android:strokeWidth="40"
+        android:pathData="M 191.42857,206.6479 l 465.71429,-2.85715 -471.42857,320 462.85714,-2.85714 L
+411.42857,60.933611 414.28571,666.6479 z" />
+</vector>

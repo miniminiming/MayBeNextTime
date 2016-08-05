@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/vector_test"
+    tools:targetApi="lollipop">
+    <target
+        android:name="test_heart_group"
+        android:animation="@anim/anim_group" />
+    <target
+        android:name="test_heart_path"
+        android:animation="@anim/anim_path" />
+</animated-vector>

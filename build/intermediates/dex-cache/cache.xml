@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_b76b3aad6cc94d87b12fa6dbf084be6c91481bbd\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_527b5beb27def04c2d88ac58d1cd8ebda309869b\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ee3ebc115d623383f8639153ea5f16070ffe4adc">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_60440dba4729b6896a0ddd68ca522ca5942fc417\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_7c3aafac6b93a673cfa2a9c2b3915ffabdc13536\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2481a5761af97f8340c2f7d194a5890662b3321">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a0052a1952a61a5934b84338ed67d731f5d68361\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_1d923ad7834e8033ed179a62c1c9af9fc136fc01\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_77530af2f18901cc47ea84c041644ab6e77b7ebe\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\Android\workspace\MayBe\MyTestApplication\opengldemo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_c9fae43cda2e1c04b2ab0de43a8f148b5b1a92fa\classes.dex" />
+    </item>
+
+</items>

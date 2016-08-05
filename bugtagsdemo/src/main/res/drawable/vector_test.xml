@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportHeight="400"
+    android:viewportWidth="400">
+    <!--根布局的尺寸含义-->
+    <!-- 其实呢，在150dp被分成400份，这样形成了一个自有的坐标系-->
+    <!-- intrinsic size of the drawable -->
+    <!-- size of the virtual canvas -->
+
+    <!--M (x y) 移动到x,y-->
+    <!--L (x y) 直线连到x,y，还有简化命令H(x) 水平连接、V(y)垂直连接-->
+    <!--Z，没有参数，连接起点和终点-->
+    <!--C(x1 y1 x2 y2 x y)，控制点x1,y1 x2,y2，终点x,y-->
+    <!--Q(x1 y1 x y)，控制点x1,y1，终点x,y-->
+    <!--A(rx ry x-axis-rotation large-arc-flag sweep-flag x y)-->
+    <!--rx ry 椭圆半径-->
+    <!--x-axis-rotation x轴旋转角度-->
+    <!--large-arc-flag 为0时表示取小弧度，1时取大弧度-->
+    <!--sweep-flag 0取逆时针方向，1取顺时针方向-->
+
+
+    <!--此处的轴点还不能用。。。加上之后，图像会显示不出来-->
+    <!--android:pivotX="200"-->
+    <!--android:pivotY="200"-->
+    <!--android:scaleX="0.0"-->
+    <!--android:scaleY="0.0"-->
+    <group android:name="test_heart_group"
+        android:pivotY="200"
+        android:pivotX="200"
+
+        >
+        <path
+            android:name="test_heart_path"
+            android:strokeWidth="6"
+            android:strokeColor="#00ff00"
+            android:strokeLineCap="round"
+            android:pathData="@string/star_data" />
+    </group>
+    <!--<path android:fillColor="#aaa"-->
+    <!--android:pathData="@string/heart_from"/>-->
+    <!--<path android:fillColor="#aaa"-->
+    <!--android:pathData="@string/heart"/>-->
+</vector>

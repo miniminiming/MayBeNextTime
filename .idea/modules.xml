@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyTestApplication.iml" filepath="$PROJECT_DIR$/MyTestApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugtagsdemo/bugtagsdemo.iml" filepath="$PROJECT_DIR$/bugtagsdemo/bugtagsdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opengldemo/opengldemo.iml" filepath="$PROJECT_DIR$/opengldemo/opengldemo.iml" />
+    </modules>
+  </component>
+</project>
